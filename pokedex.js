@@ -6,7 +6,7 @@ const fetchPokemon = async () => {
     let data = await fetch(url).then((res) => {
         if (res.status != "200"){
             console.log(res);
-            pokeImage("./img/triste.gif")
+            pokeImage("triste.gif")
         }
         else{
             return res.json();
