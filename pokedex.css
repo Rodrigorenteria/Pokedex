@@ -26,7 +26,7 @@ body{
 
 .pokePhoto{
     display: flex;
-    background-image: url(background.jpg);
+    background-image: url(https://github.com/Rodrigorenteria/Pokedex/blob/2e4fbde5d48993324fd4f6ddd31b014cb31023e2/background.jpg);
     background-position: center;
     background-size: cover;
     border-color: black;
